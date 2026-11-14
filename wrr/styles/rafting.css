@@ -17,6 +17,7 @@
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+    background-color: var(--secondary-color);
 }
 
 header,
@@ -43,6 +44,7 @@ article {
 nav a {
     text-decoration: none;
     color: var(--primary-color);
+    background-color: var(--accent2-color);
 }
 
 .socialmedia a {
