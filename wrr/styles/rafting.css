@@ -44,22 +44,10 @@ article {
 nav a {
     text-decoration: none;
     color: var(--primary-color);
-    background-color: var(--accent2-color);
 }
 
 .socialmedia a {
     text-decoration: none;
-}
-
-.hero img {
-    max-width: 100%;
-    height: auto;
-}
-
-footer {
-    text-align: center;
-    background-color: var(--primary-color);
-    color: white;
 }
 
 .hero {
@@ -69,7 +57,15 @@ footer {
 .hero img {
     display: block;
     width: 100%;
+    max-width: 100%;
     height: auto;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+    border-top: 5px solid var(--accent2-color);
 }
 
 h1 {
